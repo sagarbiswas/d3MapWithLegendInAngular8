@@ -1,0 +1,52 @@
+canton-boundary {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  #map{
+    overflow:hidden;
+    margin: 0 auto!important;
+    display:block;
+  }
+
+  text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-anchor: middle;
+  }
+  .pin_head{
+    box-shadow: 2px 0px 0px 10px #1E90FF!important;
+    border: 4px solid green!important;
+  }
+  
+  .d3-tip {
+                line-height: 1;
+                font-weight: bold;
+                padding: 12px;
+                background: yellow;
+                color: #fff;
+                border-radius: 2px;
+                opacity: 0.001%;
+              }
+              .d3-tip:after {
+                box-sizing: border-box;
+                display: inline;
+                font-size: 10px;
+                width: 100%;
+                line-height: 1;
+                color:yellow;
+                content: "\25BC";
+                position: absolute;
+                text-align: center;
+                opacity: 0.001%;
+              }
+  
+              .d3-tip.n:after {
+                margin: -1px 0 0 0;
+                top: 100%;
+                left: 0;
+                opacity: 0.001%;
+              }
+              .area:hover {
+                  fill: brown;
+              }

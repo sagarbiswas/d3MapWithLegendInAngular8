@@ -1,0 +1,41 @@
+<div style="position:absolute; top:0; bottom:0;display: flex; flex-direction: column;" class="menu-sec">
+    <ul class="top_sec">
+      <li><button mat-icon-button class="back_btn">
+          <mat-icon aria-label="Back" class="icon-arrow">arrow_back_ios</mat-icon>
+        </button>
+      </li>
+      <li>
+        <h3 class="menu_head mat-h3"><b>Ygenetics</b></h3>
+      </li>
+      <li>
+        <h5 class="menu_legend mat-h5"><b>Legend</b></h5>
+      </li>
+      <li>
+        <ul class="legend_item">
+          <li>HQ <span id="blue"></span></li>
+          <li>Treasury <span id="violet"></span></li>
+          <li>IP Holding <span id="yellow"></span></li>
+          <li>Manufacturing <span id="brown"></span></li>
+          <li>Distributor <span id="skyblue"></span></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="select_box">
+      <li>
+          <mat-form-field>
+              <mat-select placeholder="Region" class="select_country" (selectionChange)="onSelect($event.value)">
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let state of region" [value]="state">{{state}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+      </li>
+      <li>
+          <mat-form-field>
+              <mat-select placeholder="Country" class="select_country" (change)="onSelect($event.target.value)">
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let state of selectedCountry" [value]="state">{{state.country}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+      </li>
+    </ul>
+</div>

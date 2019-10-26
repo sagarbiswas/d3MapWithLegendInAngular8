@@ -1,0 +1,160 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.back_btn{
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: white;
+    width:22px;
+    height: 22px;
+}
+.icon-arrow{
+    font-size: 10px !important;
+    padding-left: 0px !important;
+    line-height: 4px !important;
+}
+.menu-sec{
+    border-right: 1px solid rgba(255, 255, 255, 0.39);
+    width:135px;
+}
+.top_sec{
+    padding: 10px 10px 56px 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.39);
+}
+.menu_head{
+    margin:0px;
+    color:white;
+}
+.menu_legend{
+    color:white;
+    margin: 8px 0px 0px 0px;
+}
+.legend_item{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    color:white;
+    font-size: 11px;
+}
+.legend_item > li{
+    padding: 0 0;
+    color:rgba(255, 255, 255, 0.582);
+    position: relative;
+}
+#blue, #violet, #yellow,#brown, #skyblue{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 20px;
+}
+#blue{
+    background-color: #0000ff;
+}
+#violet{
+    background-color: #ff00f2;
+}
+#yellow{
+    background-color: #ffee00;
+}
+#brown{
+    background-color: #6e3511;
+}
+#skyblue{
+    background-color: #00ffff;
+}
+.mat-select-trigger{
+    margin-top:0px!important;
+}
+.mat-option-text{
+    color:white;
+}
+.mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label{
+    display:none;
+}
+.select_country, .mat-form-field-hide-placeholder .mat-select-placeholder, .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-empty.mat-form-field-label{
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 11px!important;
+}
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-empty.mat-form-field-label{
+    margin-bottom: 12px!important;
+    left: 7px!important;
+}
+.select_country .mat-form-field{
+    width: 117px!important;
+    font-size: 11px;
+    color:white!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix{
+    padding:0px!important;
+}
+.select_country .mat-select-value{
+    color:white!important;
+    font-size: 11px!important;
+    font-family: 'Open Sans', sans-serif!important;
+    padding: 14px 14px 14px 10px !important;
+}
+.mat-form-field-infix{
+    width:135px!important;
+    font-size: 14px;
+    border:none!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.select_country .mat-form-field-ripple {
+    background-color: white!important;
+    font-family: 'Open Sans', sans-serif!important;
+    }
+.mat-form-field.mat-focused .mat-form-field-label{
+ color:white!important;
+ padding-left:10px!important;
+ font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-label{
+        color:white;
+        top:25px;
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-underline{
+        background-color:rgba(255, 255, 255, 0.507)!important;
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-select-arrow {
+        color: rgba(255, 255, 255, 0.54);
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-option-text{
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-icon-button{
+        border: 1px solid white!important;
+        width: 22px!important;
+        height: 22px!important;
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-wrapper{
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-select-panel {
+        background: #646464!important;
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-underline {
+        bottom: 0.25em!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-wrapper{
+        padding:0px!important;
+    }
+    .mat-select-arrow {
+        width: 0;
+        height: 0;
+        border: solid #ffffffb5!important;
+        border-width: 0 1px 1px 0!important;
+        display: inline-block!important;
+        padding: 3px!important;
+        transform: rotate(45deg)!important;
+        -webkit-transform: rotate(45deg)!important;
+        margin: 0px 11px 3px 0px!important;
+    }
