@@ -1,0 +1,27 @@
+# Cloud Build config to build container and deploy to Cloud Run
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/d3map-angular:latest', '.']
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/d3map-angular:latest']
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+    - 'run'
+    - 'deploy'
+    - 'd3map-angular'
+    - '--image'
+    - 'gcr.io/$PROJECT_ID/d3map-angular:latest'
+    - '--region'
+    - '$_REGION'
+    - '--platform'
+    - 'managed'
+    - '--allow-unauthenticated'
+
+images:
+- 'gcr.io/$PROJECT_ID/d3map-angular:latest'
+
+substitutions:
+  _REGION: europe-west1
