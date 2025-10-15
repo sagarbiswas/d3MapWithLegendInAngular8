@@ -24,4 +24,4 @@ images:
 - 'gcr.io/$PROJECT_ID/d3map-angular:latest'
 
 substitutions:
-  _REGION: europe-west1
+  _REGION: asia-south1

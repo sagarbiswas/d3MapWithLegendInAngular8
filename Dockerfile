@@ -18,5 +18,6 @@ COPY --from=build /app/dist/d3mapAng7SampleWithSCSS /usr/share/nginx/html
 # Custom nginx config for single-page app routing
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 8080
+#CMD ["nginx", "-g", "daemon off;"]
+CMD ["npx", "http-server", "dist/d3map-angular", "-p", "8080"]
