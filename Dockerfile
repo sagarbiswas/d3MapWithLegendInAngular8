@@ -20,3 +20,4 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
+#URL - GCP Cloud (May be not aviable after Jan 2026) -> https://d3map-angular-327344480501.asia-south1.run.app/
