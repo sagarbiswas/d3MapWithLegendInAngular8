@@ -19,5 +19,4 @@ COPY --from=build /app/dist/d3mapAng7SampleWithSCSS /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
-#CMD ["nginx", "-g", "daemon off;"]
-CMD ["npx", "http-server", "dist/d3map-angular", "-p", "8080"]
+CMD ["nginx", "-g", "daemon off;"]
