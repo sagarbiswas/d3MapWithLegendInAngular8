@@ -1,4 +1,4 @@
-# D3mapAng7SampleWithSCSS
+# D3js map / D3.js map with Angular 7 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
@@ -6,11 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+User Dockerfile for building and showing output.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-# D3mapAng7SampleWithSCSS
+# D3js map with legend / D3.js map with legend with Angular 7 
 
 ![Output image](./OutPut.jpg)
 
@@ -19,6 +21,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+User Dockerfile for see the output.
 
 ## Code scaffolding
 
